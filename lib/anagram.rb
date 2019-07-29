@@ -14,7 +14,7 @@ class Anagram
         if comparison_array.sort == @word.split("").sort 
           comparison_array.join
         else 
-          puts [] 
+          comparison_array.clear
         end
     end
   end 
